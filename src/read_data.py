@@ -24,8 +24,8 @@ def read_data(train_path, test_path, save_file=True, return_file=True):
     
     #Bagian dump ini bisa tidak diikutkan
     if save_file:
-        joblib.dump(train, "output/read_data/train.pkl")
-        joblib.dump(test, "output/read_data/test.pkl")
+        joblib.dump(train, "output/train.pkl")
+        joblib.dump(test, "output/test.pkl")
     
     if return_file:
         return train, test 
