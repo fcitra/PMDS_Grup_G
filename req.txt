@@ -1,0 +1,10 @@
+pandas
+re
+six
+numpy
+tqdm
+sklearn
+joblib
+random
+pycountry_conver
+seaborn
